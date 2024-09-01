@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+/* Animation for counting numbers */
+@keyframes countUp {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-count {
+  animation: countUp 1s ease-out forwards;
+}
+
+/* Styling for clean look */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+}

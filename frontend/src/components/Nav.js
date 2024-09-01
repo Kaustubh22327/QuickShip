@@ -127,13 +127,13 @@ const Nav = () => {
             className="text-[1rem] cursor-pointer hover:text-[#2874fc] font-medium"
             onClick={() => navigate("/tracking")}
           >
-            Tracking
+            Tracking & Support
           </p>
           <p
             className="text-[1rem] cursor-pointer hover:text-[#2874fc] font-medium"
-            onClick={() => navigate("/support")}
+            onClick={() => navigate("/AboutUs")}
           >
-            Support
+            About-Us
           </p>
         </div>
 

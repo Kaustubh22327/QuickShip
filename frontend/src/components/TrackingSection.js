@@ -89,7 +89,7 @@ const Tracking = () => {
           Phone Number
         </button>
         <button
-          className={`px-[1.5rem] py-[0.75rem] text-[1.2rem] font-medium ${
+          className={`px-[1.6rem] py-[0.75rem] text-[1.2rem] font-medium ${
             activeTab === "email"
               ? "text-white bg-[#2874fc]"
               : "text-gray-700 bg-gray-200"

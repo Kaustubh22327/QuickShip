@@ -17,6 +17,10 @@ import Failure from "./components/Failure";
 import Widthdraw from "./components/Widthdraw";
 import AboutUs from "./components/AboutUs";
 import TrackingAndSupport from "./components/tracking";
+import ShipmentPage from "./components/shipment";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import TermsAndConditions from "./components/terms";
 
 function App() {
   return (
@@ -49,6 +53,8 @@ function App() {
         <Route exact path="/failure" element={<Failure />} />
         <Route exact path="/AboutUs" element={<AboutUs />} />
         <Route exact path="/tracking" element={<TrackingAndSupport />} />
+        <Route exact path="/shipments" element={<ShipmentPage />} />
+        <Route exact path="/terms" element={<TermsAndConditions />} />
       </Routes>
     </>
   );

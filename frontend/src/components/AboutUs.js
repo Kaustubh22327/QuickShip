@@ -115,9 +115,9 @@ const AboutUs = () => {
           </div>
           <div className="flex flex-col items-center text-center">
             <img
-              src="/team3.png"
+              src="/kartik.jpeg"
               alt="Kartik Shivhare"
-              className="w-[10rem] h-[10rem] rounded-full mb-[1rem] shadow-lg object-cover"
+              className="w-[[12rem] h-[15rem] rounded-full mb-[1rem] shadow-lg object-cover"
             />
             <h3 className="text-[1.5rem] font-medium text-gray-800 mb-[0.5rem]">
               Kartik Shivhare

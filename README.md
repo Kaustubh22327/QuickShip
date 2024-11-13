@@ -78,7 +78,7 @@ Ready to experience the future of parcel delivery? Here’s how you can start us
 
     Clone the Repository:
 
-git clone https://github.com/your-username/quickship.git
+git clone https://github.com/Kaustubh22327/QuickShip.git
 cd quickship
 
 Install Dependencies:
